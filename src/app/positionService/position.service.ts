@@ -1,7 +1,7 @@
 import { environment } from './../../environments/environment';
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { DataGPS, DataGPSColumns } from '../dataGps.model';
+import { DataGPS, DataGPSColumns } from 'src/app/dataGPS.model';
 import { Observable } from 'rxjs';
 
 @Injectable({
